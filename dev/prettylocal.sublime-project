@@ -1,0 +1,14 @@
+{
+	"settings": {
+		"tab_size": 4,
+		// "translate_tabs_to_spaces": true,
+		"detect_indentation": true,
+		"use_tab_stops": true, // use_tab_stops will make tab and backspace insert/delete up to the next tab stop
+	},
+	"folders": [{}
+		, { "name":"/",                 "path":"..",         "folder_exclude_patterns":["*"] }
+		, { "name": "app",              "path": "../app",    "folder_exclude_patterns":["node_modules"] }
+		, { "name": "dev",              "path": "../dev" }
+		, { "name": "text",             "path": "../text" }
+	]
+}

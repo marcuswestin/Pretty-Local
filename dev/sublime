@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -z "$PRETTYLOCAL_ROOT" ]; then
+	echo "First run \`enter-prettylocal\`"
+	exit -1
+fi
+
+open -a "Sublime Text" --fresh --args $PRETTYLOCAL_ROOT/dev/prettylocal.sublime-project
